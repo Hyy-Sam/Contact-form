@@ -1,0 +1,102 @@
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif; /* 👈 apply Roboto everywhere */
+
+}
+
+.container {
+  border: 2px ;
+  height: 80vh;
+  margin: 80px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative; /* important */
+  display: flex;
+  justify-content: end;
+   
+}
+
+.design-container {
+  height: 40vh;
+  width: 70%;
+  border-radius: 20px;
+  margin-right: 500px;
+  padding-left: 90px;
+  margin-top: 50px;
+  
+  
+ }
+ p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+ }
+span {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 1px none black ;
+}
+.info {
+  height: 60%;
+  width: 35%;
+  border: 2px none black;
+  background-color: black;
+  margin-top: 90px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  z-index: 1;
+ 
+}
+h3 {
+    color: aliceblue;
+    margin-left: 30px;
+    padding-top: 30px;
+    color: rgb(250, 219, 161)
+
+}
+i {
+  padding-right: 8px;   /* spacing between icon and text */
+  font-size: 1.5rem;
+}
+
+a {
+  color: rgb(250, 219, 161);
+  display: flex;         /* flex makes icon + text in one line */
+  align-items: center;   /* vertically center them */
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 24px;
+  font-size: 0.9rem;       /* fixed typo: 1.rem ❌ -> 1rem ✅ */
+}
+
+.content-box{
+    border: 2px ;
+    height: 100%;
+    background-color: orange;
+    width: 40%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    /* position: absolute; */
+    
+    
+}
